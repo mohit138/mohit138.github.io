@@ -19,7 +19,7 @@ I've been doing Machine Learning since a few months now. I have done various Cou
 
 ## Projects
 <img src= 
-"https://media.geeksforgeeks.org/wp-content/uploads/20190506164011/logo3.png" 
+"{{site.baseurl}}/assets/img/we-in-rest.jpg" 
          alt="GeeksforGeeks logo" 
          align="left"> 
 You’ll find this post in your [`posts`][jekyll-docs] directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
