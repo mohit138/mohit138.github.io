@@ -3,10 +3,12 @@ layout: post
 title: "Machine Learning"
 date: 2017-04-06 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:  mac.jpg # Add image post (optional)
+img:  mac.jpg # Add a pic which shouts ML 
 ---
 
 I've been doing Machine Learning since a few months now. I have done various Courses and Projects in the Domain.
+[Motivation behind ML]
+[Vision Behind ML]
 
 ## Courses
 ![Courses Pics]({{site.baseurl}}/assets/img/we-in-rest.jpg)
@@ -16,7 +18,10 @@ I've been doing Machine Learning since a few months now. I have done various Cou
 * TensorFlow basics 
 
 ## Projects
-
+<img src= 
+"https://media.geeksforgeeks.org/wp-content/uploads/20190506164011/logo3.png" 
+         alt="GeeksforGeeks logo" 
+         align="left"> 
 You’ll find this post in your [`posts`][jekyll-docs] directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
