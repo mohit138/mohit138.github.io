@@ -10,9 +10,10 @@ I've been doing Machine Learning since a few months now. I have done various Cou
 
 ## Courses
 ![Courses Pics]({{site.baseurl}}/assets/img/we-in-rest.jpg)
-*Machine Learing 
-*Deep Learning 
-*TensorFlow basics 
+
+* Machine Learing 
+* Deep Learning 
+* TensorFlow basics 
 
 ## Projects
 
