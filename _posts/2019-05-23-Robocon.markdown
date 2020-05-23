@@ -7,6 +7,7 @@ img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: # add tag
 ---
+Robocon (short for Robotic Contest) is organised by Asia-Pacific Broadcasting Union (ABU), a collection of over 20 countries of Asia Pacific Region. NHK, Japan had already been organising such contests at national level and also became the host of the first ABU Robocon in 2002.
 
 ### ROBOCON 2019
 The mission of the ABU Robocon 2019 Ulaanbaatar is to deliver information fast by using a relay messenger system - the Urtuu, 
