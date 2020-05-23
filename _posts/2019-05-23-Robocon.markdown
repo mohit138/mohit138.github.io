@@ -13,7 +13,7 @@ The mission of the ABU Robocon 2019 Ulaanbaatar is to deliver information fast b
 which was first innovated in the world by the nomadic Mongolians. A match is between Red and Blue teams. 
 Each team has one manual robot known as Messenger-Robot 1, and one automatic robot known as Messenger-Robot 2.
 
-__ pic MR1, MR2 ___
+___ pic MR1, MR2 ___
 
 We were a team of 17 from different domains of engineering and secured a National Rank of 13th. 
 During the project I was a junior member and worked on the Quadruped robot, learning following –
@@ -29,7 +29,7 @@ The Quadruped Robot was an autonomous robot, and it involved a Raspberry Pi to p
 The quadruped designed by the Mechanical team was an unconventional Quadruped Robot. It comprised of 2 motors, to perform both actions of walking and rotation. 
 The stable orientations while performing motion was identified, and this was controlled with help of implementing a PID controller on the motors. 
 
-__ matlab ki kuch pic ____
+___ matlab pic ____
 
 To check the Validity of the algorithm, it was tested and developed first in Matlab Simulink and later is was implemented on the Quadruped robot.   
 
