@@ -1,0 +1,36 @@
+---
+layout: post
+title: Robocon
+date: 2017-09-12 00:00:00 +0300
+description: Experience and Learnings from Robocon-19 and Robocon-20 # Add post description (optional)
+img:  # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: # add tag
+---
+
+### ROBOCON 2019
+The mission of the ABU Robocon 2019 Ulaanbaatar is to deliver information fast by using a relay messenger system - the Urtuu, 
+which was first innovated in the world by the nomadic Mongolians. A match is between Red and Blue teams. 
+Each team has one manual robot known as Messenger-Robot 1, and one automatic robot known as Messenger-Robot 2.
+
+__ pic MR1, MR2 ___
+
+We were a team of 17 from different domains of engineering and secured a National Rank of 13th. 
+During the project I was a junior member and worked on the Quadruped robot, learning following –
+
+*Embedded systems, giving me the knowledge for several ‘commonly’ used sensors and IC’s. 
+*Algorithm development of a non-conventional quadraped robot, and implemented it in matlab Simulink. 
+*Implemented various Protection circuits for the robots. 
+
+___ pic for mix modules____
+
+The robots were built on Arduino based Microcontrollers. Polulu IMU 9-v5 was used to determine the yaw for the quadruped robot. Rotary Encoders were used to obtain angular and velocity feedback from motors. 
+The Quadruped Robot was an autonomous robot, and it involved a Raspberry Pi to perform Computer Vision application, and send the detected markers to Arduino Board.
+The quadruped designed by the Mechanical team was an unconventional Quadruped Robot. It comprised of 2 motors, to perform both actions of walking and rotation. 
+The stable orientations while performing motion was identified, and this was controlled with help of implementing a PID controller on the motors. 
+
+__ matlab ki kuch pic ____
+
+To check the Validity of the algorithm, it was tested and developed first in Matlab Simulink and later is was implemented on the Quadruped robot.   
+
+Later Over Voltage and Short Circuit protection circuits were implemented and were used on the robots. 
