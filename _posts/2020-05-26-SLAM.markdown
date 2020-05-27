@@ -1,0 +1,9 @@
+---
+layout: post
+title: SLAM
+date: 2017-09-12 00:00:00 +0300
+description: Research Internship on SLAM
+img: main1.png  # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: # add tag
+---
