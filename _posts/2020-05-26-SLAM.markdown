@@ -7,3 +7,22 @@ img: Main1.png  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: # add tag
 ---
+Did my summer research internship on the Topic - Autonomous Navigation of Mobile Robot in Indoor Environment using SLAM. 
+Dr. S.N. Sharma guided me during the course of this internship. The project was divided into 2 main sub-parts :-
+* SLAM on Robot for producing Map of the environment. gmapping stack was used for this purpose.
+* Navigation of Robot in a known environment. navigation stack was used for completing this task. 
+Rao-Blackwellized Particle Filter is used for map generation by the gmapping stack in ROS. For the purpose of localisation, amcl (Adaptive Monte-Carlo Localisation) package is used. 
+
+## image [robot, parts used]
+
+The robot designed is a two wheeled differentially driven robot. It uses a brushed DC motor with attached encoder assembly. The lower control system is running on the Arduino Due board based on the Atmel SAM3X8E ARM Cortex M3 CPU. Codes used in lower control system was written using Arduino IDE. Depth sensing is achieved using a Microsoft Xbox 360 Kinect Sensor. The robot is also equipped with HC-SR04 Ultrasonic Sensor and HMC5883L 3-axis Magnetometer. 
+
+## system architecture image !
+
+The upper control system is implemented using ROS (Robot Operating System) Kinetic Kame made for Ubuntu 16.04 (Xenial) release running on Intel Core i5 8300H processor.
+
+## image with map, my pic with robot, and navigation window !
+
+On the left is the generated map for the environment, which was set up in college’s Robotics Laboratory. This was done with help of Gmapping Stack and was visualized on RViz. This provides with an approach to visualize the Map formation process, and gives a better intuition of the working algorithm. During the implementation on hardware, this also turned out to be a medium for debugging.  
+On the right is the implementation of Navigation Stack on the differential drive. For this purpose RViz is used, to provide with all the necessary visualisation information relevant to the navigation task. It gives the approximate location of the robot in the environment. It also makes sending goals to navigation stack relatively easy and extremely visual. 
+
