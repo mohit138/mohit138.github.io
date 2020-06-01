@@ -11,6 +11,7 @@ Did my summer research internship on the Topic - Autonomous Navigation of Mobile
 Dr. S.N. Sharma guided me during the course of this internship. The project was divided into 2 main sub-parts :-
 * SLAM on Robot for producing Map of the environment. gmapping stack was used for this purpose.
 * Navigation of Robot in a known environment. navigation stack was used for completing this task. 
+
 Rao-Blackwellized Particle Filter is used for map generation by the gmapping stack in ROS. For the purpose of localisation, amcl (Adaptive Monte-Carlo Localisation) package is used. 
 
 ## image [robot, parts used]
