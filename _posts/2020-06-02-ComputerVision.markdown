@@ -8,7 +8,7 @@ img:   # mac.jpg # Add a pic which shouts ML
 
 Here are a Few projects which use Open CV in python : 
 
-##BALL DETECTION
+## Ball Detection
 
 This project uses the following approach to detect the ball :
 * Convert to HSV image.
