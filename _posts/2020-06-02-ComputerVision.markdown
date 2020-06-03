@@ -3,7 +3,7 @@ layout: post
 title: "Computer Vision"
 date: 2020-06-01 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:   # mac.jpg # Add a pic which shouts ML 
+img: Main1_cv.png   
 ---
 
 Here are a Few projects which use Open CV in python : 
