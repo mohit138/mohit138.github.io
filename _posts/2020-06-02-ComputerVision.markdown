@@ -17,11 +17,8 @@ This project uses the following approach to detect the ball :
 
 __ process pic____
 
-As it is visisble in the above picture, The first step is to apply gaussian blur of kernel 9 on the image. After this, the blurred image is converted to HSV image. 
-Now we create a mask to sepetate out the red color in the image. A color picker code is used to determine the color range of the ball in a given sample image. 
-This range is later used in inRange function to create the mask. 
+As it is visible in the above picture, The first step is to apply a Gaussian blur of kernel 9 on the image. After this, the blurred image is converted to HSV image. Now we create a mask to separate the red colour in the image. A colour picker code is used to determine the colour range of the ball in a given sample image. This range is later used in inRange function to create the mask.
 
-The obtained image still has some noise after applying the mask. To iradicate this error, we first erode the image and then later dialate the image. 
-This results in a well defined mask for the ball. The contour on this image is detected and a circle is inscribed on the detected contour. 
+The obtained image still has some noise after applying the mask. To eradicate this error, we first erode the image and then later dilate the image. This results in a well-defined mask for the ball. The contour on this image is detected and a circle is inscribed on the detected contour.
 
 In this way, ball detection is carried out only with the help of Open CV.
