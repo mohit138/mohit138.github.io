@@ -22,3 +22,10 @@ As it is visible in the above picture, The first step is to apply a Gaussian blu
 The obtained image still has some noise after applying the mask. To eradicate this error, we first erode the image and then later dilate the image. This results in a well-defined mask for the ball. The contour on this image is detected and a circle is inscribed on the detected contour.
 
 In this way, ball detection is carried out only with the help of Open CV.
+
+## Document Scanner
+
+
+[`Videos`][drive_link]
+
+[drive_link]: https://drive.google.com/drive/folders/1mxxNVnvOsJUbSpevk44NEUiBcf3UB8PM 
