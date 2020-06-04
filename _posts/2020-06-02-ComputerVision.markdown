@@ -26,6 +26,6 @@ In this way, ball detection is carried out only with the help of Open CV.
 ## Document Scanner
 
 
-[Video]
+[Video] [drive_link]
 
-[Video] : https://drive.google.com/drive/folders/1mxxNVnvOsJUbSpevk44NEUiBcf3UB8PM 
+[drive_link] : https://drive.google.com/drive/folders/1mxxNVnvOsJUbSpevk44NEUiBcf3UB8PM 
