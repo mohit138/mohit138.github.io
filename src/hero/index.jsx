@@ -8,7 +8,7 @@ const Hero = () => {
         Mastering Complexity: 
         </h1>
         <h1 className="text-4xl leading-tight sm:leading-tight sm:text-5xl md:text-6xl md:leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight font-bold">
-        Engineering Solutions,
+        Engineering Solutions &
         </h1>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold">
         Connecting Dots
