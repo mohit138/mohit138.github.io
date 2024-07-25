@@ -1,0 +1,40 @@
+[
+    {
+      "company": "American Express",
+      "title": "Engineer II",
+      "startMonth": "June 2023",
+      "endMonth": "Current",
+      "summary": "Worked on developing scalable web applications.",
+      "points": [
+        "Implemented new features.",
+        "Optimized existing codebase.",
+        "Led a team of junior developers."
+      ],
+      "logo": "amex.png",
+      "logoUrl":"https://www.linkedin.com/company/american-express/"
+    },
+    {
+      "company": "Nokia Networks and Solutions",
+      "title": "Solution Engineer",
+      "startMonth": "July 2021",
+      "endMonth": "June 2023",
+      "summary": "Focused on building user interfaces and improving user experience.",
+      "points": [
+        "Designed and developed UI components.",
+        "Collaborated with designers and backend developers.",
+        "Enhanced site performance and accessibility."
+      ],
+      "logo": "nokia.png",
+      "logoUrl":"https://lu.linkedin.com/company/nokia"
+    },
+    {
+        "company": "Bachelors In Technology",
+        "title": "NIT Surat",
+        "startMonth": "June 2017",
+        "endMonth": "July 2021",
+        "summary": "Electrical Engineering",
+        "points": [],
+        "logo": "svnit.png",
+        "logoUrl":"https://www.svnit.ac.in/"
+      }
+  ]
