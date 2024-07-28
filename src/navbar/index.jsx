@@ -11,24 +11,19 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Title */}
           <div className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold text-left p-6 xs:p-8 hover:text-slate-200 transition duration-400">
-            <a href='/'>Mohit Gidwani</a>
+            <a href='/#'>Mohit Gidwani</a>
           </div>
 
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-4 justify-center items-center pr-4 xs:pr-8">
+            <a href="#about" className="text-white hover:text-gray-400 transition duration-300">
+              About
+            </a>
             <a href="#experience" className="text-white hover:text-gray-400 transition duration-300">
               Journey
             </a>
             <a href="#skills" className="text-white hover:text-gray-400 transition duration-300">
               Skills
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mohitgidwani13/"
-              target='_blank'
-              className="text-white hover:text-gray-400 transition duration-300" 
-              rel="noreferrer"
-            >
-              LinkedIn
             </a>
             <a href="/Resume_Mohit_Gidwani_2024.pdf" download="Mohit_Gidwani_Resume">
               <button type="submit" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
@@ -54,20 +49,14 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         <div className={`md:hidden ${isOpen ? 'block opacity-100' : 'hidden opacity-0'}  bg-gray-900 bg-opacity-50 shadow-lg p-4 transition-opacity duration-300 ease-in-out`}>
+          <a href="#about" onClick={toggleMenu} className="block text-white hover:text-gray-400 transition duration-300 py-2">
+            About
+          </a>
           <a href="#experience" onClick={toggleMenu} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             Journey
           </a>
           <a href="#skills" onClick={toggleMenu} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             Skills
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mohitgidwani13/"
-            target='_blank'
-            className="block text-white hover:text-gray-400 transition duration-300 py-2"
-            rel="noreferrer"
-            onClick={toggleMenu}
-          >
-            LinkedIn
           </a>
           <a href="/Resume_Mohit_Gidwani_2024.pdf" download="Mohit_Gidwani_Resume">
             <button type="submit" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">

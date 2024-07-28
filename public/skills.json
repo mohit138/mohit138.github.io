@@ -1,0 +1,50 @@
+[
+    {
+        "name": "JavaScript",
+        "proficiency": 9
+    },
+    {
+        "name": "React",
+        "proficiency": 8
+    },
+    {
+        "name": "Node.js",
+        "proficiency": 7
+    },
+    {
+        "name": "Express",
+        "proficiency": 6
+    },
+    {
+        "name": "MongoDB",
+        "proficiency": 5
+    },
+    {
+        "name": "GraphQL",
+        "proficiency": 4
+    },
+    {
+        "name": "HTML",
+        "proficiency": 10
+    },
+    {
+        "name": "CSS",
+        "proficiency": 9
+    },
+    {
+        "name": "Tailwind CSS",
+        "proficiency": 7
+    },
+    {
+        "name": "TypeScript",
+        "proficiency": 6
+    },
+    {
+        "name": "Git",
+        "proficiency": 8
+    },
+    {
+        "name": "Docker",
+        "proficiency": 5
+    }
+]

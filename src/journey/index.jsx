@@ -17,12 +17,13 @@ const JourneySection = () => {
     });
   }
   useEffect(() => {
-    fetchJson()
+    fetchJson();
   },[])
   return (
-    <section id="experience" className="py-16 bg-black">
+    <section id="experience" className="pt-32 pb-0.5 bg-black">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-white mb-12 mt-12 lg:relative z-20">Journey</h2>
+        <span className="text-3xl font-bold text-white lg:relative z-20">Journey</span>
+        <div className='text-lg font-bold text-white m-2'>[ What all places I have been . . . ]</div>
         {journeyData.map((exp, index) => (
           <JourneyItem
             key={index}
