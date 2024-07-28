@@ -1,0 +1,19 @@
+{
+    "mailId":"mohit22gidwani@gmail.com",
+    "linkedIn":{
+        "link":"https://www.linkedin.com/in/mohitgidwani13/",
+        "logo":"/icons/white_icons/linkedin_48.png"
+    },
+    "github":{
+        "link":"https://github.com/mohit138",
+        "logo":"/icons/white_icons/github_48.png"
+    },
+    "leetcode":{
+        "link":"https://leetcode.com/u/mohit138/",
+        "logo":"/icons/white_icons/leetcode_48.png"
+    },
+    "codeforces":{
+        "link":"https://codeforces.com/profile/mohit138",
+        "logo":"/icons/white_icons/codeforces_48.png"
+    }
+}
