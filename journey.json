@@ -4,11 +4,11 @@
         "title": "Engineer II",
         "startMonth": "June 2023",
         "endMonth": "Current",
-        "summary": "Worked on developing scalable web applications.",
+        "summary": "Developed and enhanced applications for American Express partners and internal teams using React.js, Spring Boot, and Node.js. Involved in writing new features, debugging, and effectively communicating with stakeholders.",
         "points": [
-            "Implemented new features.",
-            "Optimized existing codebase.",
-            "Led a team of junior developers."
+            "Built a transaction search UI to streamline data access for internal teams.",
+            "Implemented user management features to ensure secure access for new types of partners.",
+            "Enhanced a disputes management system for new types of partners to improve transaction dispute resolution."
         ],
         "logo": "amex.png",
         "logoUrl": "https://www.linkedin.com/company/american-express/"
@@ -18,14 +18,13 @@
         "title": "Solution Engineer",
         "startMonth": "July 2021",
         "endMonth": "June 2023",
-        "summary": "Focused on building user interfaces and improving user experience.",
+        "summary": "At Nokia, I honed my skills in core Java and frontend technologies, contributing to major projects for clients like AT&T and Verizon. This experience laid a solid foundation in enterprise-level software development and teamwork.",
         "points": [
-            "Designed and developed UI components.",
-            "Collaborated with designers and backend developers.",
-            "Enhanced site performance and accessibility."
+            "Developed core Java products to automate auditing of configurations for Nokia's mobile network services, enhancing efficiency.",
+            "Created a responsive UI for Nokia partners to request special features on Nokia Mobile Networks using React.js and Redux."
         ],
         "logo": "nokia.png",
-        "logoUrl": "https://lu.linkedin.com/company/nokia"
+        "logoUrl": "https://www.linkedin.com/company/nokia/"
     },
     {
         "company": "Bachelors In Technology",
