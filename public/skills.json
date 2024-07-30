@@ -1,50 +1,50 @@
 [
     {
         "name": "JavaScript",
-        "proficiency": 9
+        "proficiency": 6
     },
     {
-        "name": "React",
+        "name": "SpringBoot",
         "proficiency": 8
     },
     {
-        "name": "Node.js",
-        "proficiency": 7
-    },
-    {
-        "name": "Express",
-        "proficiency": 6
-    },
-    {
-        "name": "MongoDB",
-        "proficiency": 5
-    },
-    {
-        "name": "GraphQL",
-        "proficiency": 4
-    },
-    {
-        "name": "HTML",
-        "proficiency": 10
-    },
-    {
-        "name": "CSS",
+        "name": "React.js",
         "proficiency": 9
     },
     {
-        "name": "Tailwind CSS",
+        "name": "Node.js",
+        "proficiency": 6
+    },
+    {
+        "name": "Java",
         "proficiency": 7
     },
     {
-        "name": "TypeScript",
-        "proficiency": 6
+        "name": "C++",
+        "proficiency": 7
     },
     {
         "name": "Git",
         "proficiency": 8
     },
     {
-        "name": "Docker",
+        "name": "CSS",
         "proficiency": 5
+    },
+    {
+        "name": "Docker",
+        "proficiency": 4
+    },
+    {
+        "name": "Data Structures",
+        "proficiency": 6
+    },
+    {
+        "name": "Algorithms",
+        "proficiency": 7
+    },
+    {
+        "name":"Jenkins",
+        "proficiency": "5"
     }
 ]
