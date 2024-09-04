@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import ReactGA from 'react-ga';
+// Initialize React Ga with your tracking ID
+ReactGA.initialize('G-26HQ6JWNQ6');
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

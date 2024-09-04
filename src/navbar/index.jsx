@@ -1,9 +1,35 @@
 import React, { useState } from 'react';
+import ReactGA from 'react-ga';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  const downloadClickHandler = (device) =>{
+    ReactGA.event({
+      category: 'Button Click',
+      action: 'Clicked on Resume Download',
+      label: `using a ${device}`,
+    });
+  }
+
+  const jumpToSection = (section) => {
+    ReactGA.event({
+      category: 'Button Click',
+      action: `Clicked on Navbar ${section}`,
+      label: "using a laptop/desktop",
+    });
+  }
+
+  const jumpToSectionMobile = (section) => {
+    toggleMenu();
+    ReactGA.event({
+      category: 'Button Click',
+      action: `Clicked on Navbar ${section}`,
+      label: "using a mobile",
+    });
+  }
 
   return (
     <nav className="bg-black p-4 fixed top-0 left-0 w-full z-10">
@@ -16,17 +42,17 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-4 justify-center items-center pr-4 xs:pr-8">
-            <a href="#about" className="text-white hover:text-gray-400 transition duration-300">
+            <a href="#about" onClick={()=>jumpToSection('About')} className="text-white hover:text-gray-400 transition duration-300">
               About
             </a>
-            <a href="#experience" className="text-white hover:text-gray-400 transition duration-300">
+            <a href="#experience" onClick={()=>jumpToSection('Journey')} className="text-white hover:text-gray-400 transition duration-300">
               Journey
             </a>
-            <a href="#skills" className="text-white hover:text-gray-400 transition duration-300">
+            <a href="#skills" onClick={()=>jumpToSection('Skills')} className="text-white hover:text-gray-400 transition duration-300">
               Skills
             </a>
             <a href="/Resume_Mohit_Gidwani_2024.pdf" download="Mohit_Gidwani_Resume">
-              <button type="submit" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
+              <button type="submit" onClick={()=>downloadClickHandler('desktop/laptop')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
                 Resume (↓)
               </button>
             </a>
@@ -49,17 +75,17 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         <div className={`md:hidden ${isOpen ? 'block opacity-100' : 'hidden opacity-0'}  bg-gray-900 bg-opacity-50 shadow-lg p-4 transition-opacity duration-300 ease-in-out`}>
-          <a href="#about" onClick={toggleMenu} className="block text-white hover:text-gray-400 transition duration-300 py-2">
+          <a href="#about" onClick={()=>jumpToSectionMobile('About')} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             About
           </a>
-          <a href="#experience" onClick={toggleMenu} className="block text-white hover:text-gray-400 transition duration-300 py-2">
+          <a href="#experience" onClick={()=>jumpToSectionMobile('Journey')} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             Journey
           </a>
-          <a href="#skills" onClick={toggleMenu} className="block text-white hover:text-gray-400 transition duration-300 py-2">
+          <a href="#skills" onClick={()=>jumpToSectionMobile('Skills')} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             Skills
           </a>
           <a href="/Resume_Mohit_Gidwani_2024.pdf" download="Mohit_Gidwani_Resume">
-            <button type="submit" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
+            <button type="submit" onClick={()=>downloadClickHandler('mobile')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
               Resume (↓)
             </button>
           </a>
