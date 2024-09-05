@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 // Initialize React Ga with your tracking ID
 ReactGA.initialize('G-26HQ6JWNQ6');
 

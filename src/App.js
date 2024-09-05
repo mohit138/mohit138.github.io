@@ -7,13 +7,12 @@ import AboutSection from './about';
 import Footer from './footer';
 import SideBar from './sidebar';
 import { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function App() {
   useEffect(() => {
     const location = window.location.href;
-    console.log(location);
-    ReactGA.pageview(location.pathname + location.search);
+    ReactGA.send({hitType:"pageview", page: location})
   }, []);
   return (
     <div className="App">
