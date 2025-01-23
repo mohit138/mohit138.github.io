@@ -51,7 +51,7 @@ const Navbar = () => {
             <a href="#skills" onClick={()=>jumpToSection('Skills')} className="text-white hover:text-gray-400 transition duration-300">
               Skills
             </a>
-            <a href="/Resume_Mohit_Gidwani_2024.pdf" download="Mohit_Gidwani_Resume">
+            <a href="/Resume_Mohit_Gidwani_2025.pdf" download="Mohit_Gidwani_Resume">
               <button type="submit" onClick={()=>downloadClickHandler('desktop/laptop')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
                 Resume (↓)
               </button>
@@ -84,7 +84,7 @@ const Navbar = () => {
           <a href="#skills" onClick={()=>jumpToSectionMobile('Skills')} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             Skills
           </a>
-          <a href="/Resume_Mohit_Gidwani_2024.pdf" download="Mohit_Gidwani_Resume">
+          <a href="/Resume_Mohit_Gidwani_2025.pdf" download="Mohit_Gidwani_Resume">
             <button type="submit" onClick={()=>downloadClickHandler('mobile')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-300">
               Resume (↓)
             </button>

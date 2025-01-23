@@ -24,7 +24,7 @@ const JourneyItem = ({ company, title, startMonth, endMonth, summary, points, lo
 				<p className="text-gray-100 mb-4">{summary}</p>
 				<div className="text-gray-100 space-y-2">
 					{points.map((point, index) => (
-						<div key={index} className="flex items-center space-x-2">
+						<div key={index} className="flex items-center space-x-2 space-y-1">
 							<span className="w-px h-4 bg-gray-500" />
 							<span>{point}</span>
 						</div>
