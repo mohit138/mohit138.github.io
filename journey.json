@@ -7,8 +7,8 @@
         "summary": "Developed and enhanced applications for American Express partners and internal teams using React.js, Spring Boot, and Node.js. Involved in writing new features, debugging, and effectively communicating with stakeholders.",
         "points": [
             "Built a transaction search UI to streamline data access for internal teams.",
-            "Implemented user management features to ensure secure access for new types of partners.",
-            "Enhanced a disputes management system for new types of partners to improve transaction dispute resolution."
+            "Enhanced user management systems to enable secure onboarding and role-based access for 60+ network partners, along with upgrading dispute management systems to improve transaction dispute resolution.",
+            "Containerized a monolith application using Docker, reducing deployment time by 50% and minimizing errors. The application facilitates partner onboarding and acts as an information hub for network partners."
         ],
         "logo": "amex.png",
         "logoUrl": "https://www.linkedin.com/company/american-express/"
