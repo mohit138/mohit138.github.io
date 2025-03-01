@@ -1,9 +1,18 @@
 [
     {
         "company": "American Express",
-        "title": "Engineer II",
-        "startMonth": "June 2023",
-        "endMonth": "Current",
+        "titles":[
+            {
+                "title": "Engineer I",
+                "startMonth": "February 2025",
+                "endMonth": "Current"
+            },
+            {
+                "title": "Engineer II",
+                "startMonth": "June 2023",
+                "endMonth": "February 2025"
+            }
+        ],
         "summary": "Developed and enhanced applications for American Express partners and internal teams using React.js, Spring Boot, and Node.js. Involved in writing new features, debugging, and effectively communicating with stakeholders.",
         "points": [
             "Built a transaction search UI to streamline data access for internal teams.",
@@ -15,9 +24,18 @@
     },
     {
         "company": "Nokia Networks and Solutions",
-        "title": "Solution Engineer",
-        "startMonth": "July 2021",
-        "endMonth": "June 2023",
+        "titles":[
+            {
+                "title": "Solution Engineer",
+                "startMonth": "July 2022",
+                "endMonth": "June 2023"
+            },
+            {
+                "title": "Graduate Engineering Trainee",
+                "startMonth": "July 2021",
+                "endMonth": "July 2022"
+            }
+        ],
         "summary": "At Nokia, I honed my skills in core Java and frontend technologies, contributing to major projects for clients like AT&T and Verizon. This experience laid a solid foundation in enterprise-level software development and teamwork.",
         "points": [
             "Developed core Java products to automate auditing of configurations for Nokia's mobile network services, enhancing efficiency.",
@@ -27,10 +45,14 @@
         "logoUrl": "https://www.linkedin.com/company/nokia/"
     },
     {
-        "company": "Bachelors In Technology",
-        "title": "NIT Surat",
-        "startMonth": "June 2017",
-        "endMonth": "July 2021",
+        "company": "NIT Surat",
+        "titles":[
+            {
+               "title": "Bachelors In Technology",
+                "startMonth": "June 2017",
+                "endMonth": "July 2021"
+            }
+        ],
         "summary": "Electrical Engineering",
         "points": [],
         "logo": "svnit.png",

@@ -11,7 +11,7 @@ const Hero = () => {
         Engineering Solutions &
         </h1>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold">
-        Connecting Dots
+        Connecting Dots ...
         </h1>
       </div>
       

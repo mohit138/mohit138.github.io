@@ -28,7 +28,7 @@ const JourneySection = () => {
           <JourneyItem
             key={index}
             company={exp.company}
-            title={exp.title}
+            titles={exp.titles}
             startMonth={exp.startMonth}
             endMonth={exp.endMonth}
             summary={exp.summary}
