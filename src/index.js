@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router";
+import { HashRouter } from "react-router";
 
 import ReactGA from 'react-ga4';
 // Initialize React Ga with your tracking ID
@@ -12,9 +12,9 @@ ReactGA.initialize('G-26HQ6JWNQ6');
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
