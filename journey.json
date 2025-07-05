@@ -1,11 +1,25 @@
 [
     {
+        "company": "Google",
+        "titles":[
+            {
+                "title": "Software Engineer (L4)",
+                "startMonth": "June 2025",
+                "endMonth": "Current"
+            }
+        ],
+        "summary": "Part of Youtube Shopping Creator Team",
+        "points": [],
+        "logo": "google.png",
+        "logoUrl": "https://www.linkedin.com/company/google/posts/?feedView=all"
+    },
+    {
         "company": "American Express",
         "titles":[
             {
                 "title": "Engineer I",
                 "startMonth": "February 2025",
-                "endMonth": "Current"
+                "endMonth": "June 2025"
             },
             {
                 "title": "Engineer II",
