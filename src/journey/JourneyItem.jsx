@@ -34,7 +34,7 @@ const JourneyItem = ({ company, titles, summary, points, logo, logoUrl }) => {
 				><img
 						src={process.env.REACT_APP_BASE_URL + logo}
 						alt={`${company} logo`}
-						className="absolute left-0 mt-4 top-1/4 w-12 h-12 ml-4 sm:ml-8 bg-black"
+						className="absolute left-0 mt-4 top-1/4 w-12 h-12 xl:w-16 xl:h-16 ml-4 sm:ml-8 bg-black"
 					/>
 				</a>
 			)}
