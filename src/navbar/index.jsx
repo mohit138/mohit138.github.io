@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-4 justify-center items-center pr-4 xs:pr-8">
             <NavLink to='/my-duck' onClick={()=>jumpToSection('My Duck')} className="text-white hover:opacity-80 transition duration-300">
-              <img src='icons/white_icons/duck-48.png' className='h-7 mx-2' alt='Meet My Duck'></img>
+              <img src='icons/white_icons/duck-72-g.png' className='h-7 mx-2' alt='Meet My Duck'></img>
             </NavLink>
             <NavLink to="/#about" onClick={()=>jumpToSection('About')} className="text-white hover:text-gray-400 transition duration-300">
               About
@@ -80,7 +80,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={`md:hidden ${isOpen ? 'block opacity-100' : 'hidden opacity-0'}  bg-gray-900 bg-opacity-50 shadow-lg p-4 transition-opacity duration-300 ease-in-out`}>
           <NavLink to='/my-duck' onClick={()=>jumpToSectionMobile('My Duck')} className="flex text-white hover:opacity-80 transition duration-300 py-2 justify-center items-center">
-              <img src='icons/white_icons/duck-48.png' className='h-7' alt='Meet My Duck'></img>
+              <img src='icons/white_icons/duck-72-g.png' className='h-7' alt='Meet My Duck'></img>
           </NavLink>
           <NavLink to="/#about" onClick={()=>jumpToSectionMobile('About')} className="block text-white hover:text-gray-400 transition duration-300 py-2">
             About
